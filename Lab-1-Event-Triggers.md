@@ -33,7 +33,6 @@ No local setup required—all exercises are performed directly in GitHub.
 
 4. **Verify your repository**:
    - You should see README.md
-   - You should see .gitignore file
    - Repository is ready for workflows!
 
 ### What just happened?
