@@ -1,8 +1,8 @@
 # Lab 6: Secrets and Environments - Secure CI/CD
 
 **Duration:** 60-75 minutes  
-**Level:** Beginner  
-**Prerequisites:** Labs 1-5 completed
+**Level:** Beginner/Intermediate 
+
 
 ---
 
