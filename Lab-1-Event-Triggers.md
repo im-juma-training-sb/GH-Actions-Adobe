@@ -14,6 +14,30 @@ No local setup required—all exercises are performed directly in GitHub.
 
 ---
 
+Exercise 0: Create Your Training Repository (10 minutes)
+Set up your workspace for all fundamental labs
+Go to GitHub and sign in to your account
+
+Create a new repository:
+
+Click the + icon (top right) → New repository
+Configure the repository:
+
+Repository name: github-actions-fundamentals
+Description: Learning GitHub Actions through hands-on labs
+Visibility: ✅ Internal or Private
+✅ Add a README file
+License: Optional (e.g., MIT)
+Click Create repository
+Verify your repository:
+
+You should see README.md
+You should see .gitignore file
+Repository is ready for workflows!
+What just happened?
+You've created a dedicated repository for learning GitHub Actions. This will be your sandbox for all fundamental labs.
+
+
 ## Exercise 1: Push Event with Branch Filtering (10 minutes)
 
 ### Create a workflow that only runs on specific branches
