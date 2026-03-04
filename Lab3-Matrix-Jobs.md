@@ -151,7 +151,7 @@ The 4 jobs still all run, but they queue up—only 2 at a time.
           echo "Matrix combination verified successfully"
       
       - name: Mark as experimental
-        if: matrix.experimental == true
+        if: ${{ matrix.experimental == true }}
         run: echo "WARNING: This is an EXPERIMENTAL configuration"
 ```
 
@@ -202,11 +202,11 @@ jobs:
         run: echo "Testing on ${{ matrix.os }} with Node ${{ matrix.node }}"
       
       - name: Mark as experimental
-        if: matrix.experimental == true
+        if: ${{ matrix.experimental == true }}
         run: echo "WARNING: This is an EXPERIMENTAL configuration"
       
       - name: Intentional failure for experimental
-        if: matrix.experimental == true
+        if: ${{ matrix.experimental == true }}
         run: exit 1
       
       - name: Verify configuration
@@ -248,7 +248,7 @@ This is perfect for testing bleeding-edge versions without blocking your main pi
           echo "Matrix combination verified successfully"
       
       - name: Mark as experimental
-        if: matrix.experimental == true
+        if: ${{ matrix.experimental == true }}
         run: echo "WARNING: This is an EXPERIMENTAL configuration"
 ```
 
@@ -329,7 +329,7 @@ This is perfect for testing bleeding-edge versions without blocking your main pi
           echo "Matrix combination verified successfully"
       
       - name: Mark as experimental
-        if: matrix.experimental == true
+        if: ${{ matrix.experimental == true }}
         run: echo "WARNING: This is an EXPERIMENTAL configuration"
 ```
 
